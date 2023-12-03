@@ -17,7 +17,6 @@ On the root folder, with the **Dockerfile** we build an image then a container o
 1. Using Json format is impractical for users, to simplify the process we create a form using **Flask**, see more details in the **Flask/app/movie_app_html.py** file.<br>
 We also create a container for Flask, by using **Flask/Dockerfile**<br>
 You can see a running example in the **Flask/Screenshots** folder.<br>
-**N.B:** For the two containers to communicate, you will need to create a **bridge** network: ```docker network create network_name --driver bridge```,<br>
-then run the two containers in the newly created network by adding ```--network network_name``` to the ```docker run``` command.<br>
+**N.B:** For the two containers to communicate, you will need to create a **bridge** network: ```docker network create network_name --driver bridge```, then run the two containers in the newly created network by adding ```--network network_name``` to the ```docker run``` command.<br>
 
 
