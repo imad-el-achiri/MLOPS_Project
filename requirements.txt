@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+mlflow
+seaborn
+onnx
+onnxruntime
+skl2onnx
+#install pickle only if python<3.9
+pickle5
+uvicorn
+fastapi
+requests
+pydantic
+flask
