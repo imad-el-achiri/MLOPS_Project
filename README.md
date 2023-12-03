@@ -14,8 +14,8 @@ plus the **.pkl** of the **tfidf** transformer that got trained on the training 
 the **GET** and **POST** methods inside the **movie_app.py** file.<br>
 On the root folder, with the **Dockerfile** we build an image then a container of our API using **Docker**, and expose it on port **80**.<br>
 1. Since the API is created inside a container, we can now consume it using **Postman**, take a look at **FastAPI/Screenshots** to see execution examples.<br>
-1. Using Json format is impractical for users, to simplify the process we create a form using **Flask**, see more details in the **Flask/app/movie_app_html.py**<br>
-file. We also create a container for Flask, by using **Flask/Dockerfile**<br>
+1. Using Json format is impractical for users, to simplify the process we create a form using **Flask**, see more details in the **Flask/app/movie_app_html.py**file.<br>
+We also create a container for Flask, by using **Flask/Dockerfile**<br>
 You can see a running example in the **Flask/Screenshots** folder.<br>
 **N.B:** For the two containers to communicate, you will need to create a **bridge** network: ```docker network create network_name --driver bridge```<br>
 ,then run the two containers in the newly created network by adding ```--network network_name``` to the ```docker run``` command.<br>
