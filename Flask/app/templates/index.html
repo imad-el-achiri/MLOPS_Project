@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Movie review sentiment analysis</title>
+      <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+   </head>
+
+   <body>
+      <div id="wrap">
+      <h1>Movie review sentiment analysis</h1>
+
+      <section id="furn" class="frame2">
+
+         <div class="login">
+
+            <form action="{{ url_for('predict')}}"method="post">
+            <table class="entryForm">
+
+
+            <tr>    
+                <td><textarea rows="8" cols="60" name="review" id="review" placeholder="Write down your review here" required="required"></textarea></td>
+            </tr>
+
+
+            </table>
+            <div class="btns">
+            <button type="reset" class="btn btn-clear">Reset</button>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            </div>
+            </form>
+
+         </div>
+
+
+      </section>
+
+
+      <br>
+      <br>
+      {{prediction_text}}
+      </div>
+
+   </body>
+</html>
