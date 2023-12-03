@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/pc/Desktop/UM6P/M2/ML_Cloud_Labs/Control_1/ML_Flow/mlruns/373795650353232212/06e719813fa045b4b266687f2235ffca/artifacts
+end_time: 1701082433915
+entry_point_name: ''
+experiment_id: '373795650353232212'
+lifecycle_stage: active
+run_id: 06e719813fa045b4b266687f2235ffca
+run_name: calm-stag-227
+run_uuid: 06e719813fa045b4b266687f2235ffca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701082427842
+status: 3
+tags: []
+user_id: pc

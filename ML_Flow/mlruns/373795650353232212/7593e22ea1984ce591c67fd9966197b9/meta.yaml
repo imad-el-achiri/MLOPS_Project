@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/pc/Desktop/UM6P/M2/ML_Cloud_Labs/Control_1/ML_Flow/mlruns/373795650353232212/7593e22ea1984ce591c67fd9966197b9/artifacts
+end_time: 1701082437705
+entry_point_name: ''
+experiment_id: '373795650353232212'
+lifecycle_stage: active
+run_id: 7593e22ea1984ce591c67fd9966197b9
+run_name: unequaled-fish-448
+run_uuid: 7593e22ea1984ce591c67fd9966197b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701082434016
+status: 4
+tags: []
+user_id: pc

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/pc/Desktop/UM6P/M2/ML_Cloud_Labs/Control_1/ML_Flow/mlruns/373795650353232212/ba493d2629654ca6b0e631b083a7d47a/artifacts
+end_time: 1701082469106
+entry_point_name: ''
+experiment_id: '373795650353232212'
+lifecycle_stage: active
+run_id: ba493d2629654ca6b0e631b083a7d47a
+run_name: industrious-seal-7
+run_uuid: ba493d2629654ca6b0e631b083a7d47a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701082465520
+status: 3
+tags: []
+user_id: pc

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/pc/Desktop/UM6P/M2/ML_Cloud_Labs/Control_1/ML_Flow/mlruns/373795650353232212/ec034bcc14224e0693cfa0235724ae40/artifacts
+end_time: 1701082427754
+entry_point_name: ''
+experiment_id: '373795650353232212'
+lifecycle_stage: active
+run_id: ec034bcc14224e0693cfa0235724ae40
+run_name: useful-wasp-253
+run_uuid: ec034bcc14224e0693cfa0235724ae40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701082420585
+status: 3
+tags: []
+user_id: pc
